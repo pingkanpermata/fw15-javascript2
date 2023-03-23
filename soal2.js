@@ -39,3 +39,49 @@ const pop1 = ["a","b","c"];
 console.log(pop1.pop()); //output:c
 console.log(pop1); //output:['a','b']
 
+// 5. Push() method
+// metode ini digunakan untuk menambahkan elemen baru ke akhir array dan mengembalikan panjang array
+// hanya dapat digunakan pada array
+const push1 = ["a","b","c"];
+console.log(push1.push("e")); //output: 4
+console.log(push1); //output: ['a','b','c','e']
+console.log(push1.length) //output: 4
+
+// 6. reverse() method
+// metode ini digunakan untuk membalik urutan elemen array dan mengembalikan array yang sudah dibalik
+// hanya dapat digunakan pada array
+const reverse1 = ["a","b","c"];
+console.log(reverse1.reverse()); //output: ['c','b','a']
+
+// 7. shift() method
+// metode ini digunakan untuk menghapus elemen pertama dari array dan mengembalikan elemen tersebut
+// hanya dapat digunakan pada array
+const shift1 = ["a","b","c"];
+console.log(shift1.shift()); //output: a
+console.log(shift1); //output: ['b','c']
+
+// 8.slice() method
+// metode ini digunakan untuk mengambil elemen array dari index awal sampai index akhir dan mengembalikan elemen tersebut
+// hanya dapat digunakan pada array
+const slice1 = ["1","2","3","4","5"];
+console.log(slice1.slice(1, 3)); //output: ['2','3']
+console.log(slice1.slice(2)); //output: ['3','4','5']
+const slice2 = "Hello World";
+console.log(slice2.slice(1, 3)); //output: el
+console.log(slice2.slice(2)); //output: llo world
+
+// 9.sort() method
+// metode ini digunakan untuk mengurutkan elemen array dan mengembalikan array yang sudah diurutkan
+// hanya dapat digunakan pada array
+const sort1 = ["c","a","b"];
+console.log(sort1.sort()); //output: ['a','b','c']
+
+// 10.toString() method
+// metode ini digunakan untuk mengubah object, date, array, number, function, dan boolean menjadi string dan mengembalikan string tersebut
+// bisa digunakan pada object, date, array, number, function, dan boolean
+// contoh object
+const toString1 = {
+    name: "pingkan",
+    age: 26,
+};
+console.log(toString1.toString()); //output: [object Object]
