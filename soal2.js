@@ -85,3 +85,25 @@ const toString1 = {
     age: 26,
 };
 console.log(toString1.toString()); //output: [object Object]
+
+// contoh date
+const toString2 = new Date();
+console.log(toString2.toString()); //output: Thu Mar 23 2023 23:19:58 GMT+0700 (Western Indonesia Time)
+
+// contoh array
+const toString3 = ["a","b","c"];
+console.log(toString3.toString()); //output: 123
+
+// contoh number
+const toString4 = 123;
+console.log(toString4.toString()); //output: 123
+
+// contoh function
+const toString5 = function () {
+    return "Hello World";
+};
+console.log(toString5.toString()); //output: function () { return "Hello World"; }
+
+// contoh boolean
+const toString6 = true;
+console.log(toString6.toString()); //output: true
